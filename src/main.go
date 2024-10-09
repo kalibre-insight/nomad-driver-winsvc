@@ -3,9 +3,9 @@ package main
 import (
 	log "github.com/hashicorp/go-hclog"
 
-	"github.com/nskerl/nomad-driver-winsvc/winsvc"
-
 	"github.com/hashicorp/nomad/plugins"
+
+	"nomad-driver-winsvc/winsvc"
 )
 
 func main() {
